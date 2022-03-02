@@ -12,7 +12,7 @@ body {
 }
 .container {
   width: 1170px;
-  padding: auto 15px;
+  padding: 0 15px;
 }
 a {
   text-decoration: none;
@@ -56,6 +56,9 @@ ul {
   color: #ffffff;
   line-height: 1.36;
   text-transform: uppercase;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  outline: 3px solid red;
 }
 .feature-desc {
   color: var(--text-color);
@@ -79,6 +82,10 @@ ul {
   line-height: 1.8;
   font-size: 16px;
   font-weight: 700;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  text-align: center;
 }
 
 .button-secondary {
@@ -88,6 +95,11 @@ ul {
   line-height: 1.62;
   font-size: 16px;
   font-weight: 500;
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
+  min-width: 73px;
+  text-align: center;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -165,6 +177,9 @@ ul {
   color: var(--text-color);
   font-size: 16px;
   letter-spacing: 0.03em;
+}
+.footer-container {
+  background-color: #2f303a;
 }
 .footer {
   background: #2f303a;
