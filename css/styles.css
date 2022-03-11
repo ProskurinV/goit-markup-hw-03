@@ -21,6 +21,14 @@ a {
 
 ul {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: none;
 }
 .site-nav,
 .contact-list {
@@ -51,18 +59,41 @@ ul {
   color: var(--title-text-color);
   line-height: 1.17;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container-hero {
+  background-color: #2f303a;
+  height: 600px;
+  outline: solid 3px red;
+  margin-bottom: 94px;
+}
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
   color: #ffffff;
   line-height: 1.36;
   text-transform: uppercase;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  outline: 3px solid red;
+  padding-top: 200px;
+  margin-bottom: 90px;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+}
+
+.features {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .feature-desc {
   color: var(--text-color);
   line-height: 1.17;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .do-section-title,
 .team-section-title {
@@ -86,6 +117,7 @@ ul {
   padding: 10px 32px;
   display: inline-block;
   text-align: center;
+  margin-bottom: 200px;
 }
 
 .button-secondary {
@@ -138,11 +170,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
 }
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  text-align: center;
-}
+
 .section-title {
   font-weight: 700;
   font-size: 14px;
@@ -163,9 +191,7 @@ ul {
   line-height: 1.17;
   color: var(--text-color);
 }
-.hero {
-  background-color: #2f303a;
-}
+
 .portf-section-title {
   line-height: 2;
   font-size: 18px;
