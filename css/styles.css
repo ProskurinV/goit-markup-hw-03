@@ -315,6 +315,10 @@ h2 {
   line-height: 1.17;
 }
 
+.footer-content {
+  padding-top: 60px;
+}
+
 .filtr-btn {
   margin-bottom: 34px;
   margin-top: 94px;
