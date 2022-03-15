@@ -341,7 +341,7 @@ h2 {
 }
 
 .pictures .item {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   background-color: aqua;
 }
