@@ -21,8 +21,8 @@
   </head>
   <body>
     <header>
-      <section class="header">
-        <div class="container">
+      <div class="container">
+        <div class="header-nav header">
           <nav class="main-nav">
             <a href="./index.html" class="logo text"
               >Web<span class="logo-two text">Studio</span></a
@@ -32,21 +32,20 @@
               <li class="item"><a href="./portfolio.html" class="current">Портфолио</a></li>
               <li class="item"><a href="">Контакты</a></li>
             </ul>
-
-            <ul class="header-contact-list">
-              <li class="item">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
           </nav>
+          <ul class="header-contact-list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
         </div>
-      </section>
+      </div>
     </header>
     <main>
-      <section class="btn-filtr">
+      <section class="works">
         <div class="container">
-          <h2 class="hidden">скрытый заголовок Н2</h2>
+          <h1 class="hidden">скрытый заголовок Н1</h1>
           <ul class="btn-text">
             <li type="button" class="secondary-btn">Все</li>
             <li type="button" class="secondary-btn">Веб-сайты</li>
@@ -54,86 +53,135 @@
             <li type="button" class="secondary-btn">Дизайн</li>
             <li type="button" class="secondary-btn">Маркетинг</li>
           </ul>
-        </div>
-      </section>
-      <section class="works">
-        <div class="container">
           <ul class="pictures">
             <li class="item border">
-              <img src="./images-portfolio/img1.jpg" alt="набор фото" />
-
-              <h3 class="picture-title">Технокряк</h3>
-              <p class="picture-description">Веб-сайт</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img1.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Технокряк</h2>
+                  <p class="picture-description">Веб-сайт</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img2.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Постер New Orlean vs Golden Star</h3>
-              <p class="picture-description">Дизайн</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img2.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="picture-description">Дизайн</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img3.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Ресторан Seafood</h3>
-              <p class="picture-description">Приложение</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img3.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Ресторан Seafood</h2>
+                  <p class="picture-description">Приложение</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img4.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Проект Prime</h3>
-              <p class="picture-description">Маркетинг</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img4.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Проект Prime</h2>
+                  <p class="picture-description">Маркетинг</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img5.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Проект Boxes</h3>
-              <p class="picture-description">Приложение</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img5.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Проект Boxes</h2>
+                  <p class="picture-description">Приложение</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img6.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Inspiration has no Borders</h3>
-              <p class="picture-description">Веб-сайт</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img6.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Inspiration has no Borders</h2>
+                  <p class="picture-description">Веб-сайт</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img7.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Издание Limited Edition</h3>
-              <p class="picture-description">Дизайн</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img7.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Издание Limited Edition</h2>
+                  <p class="picture-description">Дизайн</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img8.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Проект LAB</h3>
-              <p class="picture-description">Маркетинг</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img8.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Проект LAB</h2>
+                  <p class="picture-description">Маркетинг</p>
+                </div>
+              </article>
             </li>
             <li class="item border">
-              <img src="./images-portfolio/img9.jpg" alt="набор фото" width="370" />
-              <h3 class="picture-title">Growing Business</h3>
-              <p class="picture-description">Приложение</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img src="./images-portfolio/img9.jpg" alt="набор фото" />
+                </div>
+                <div class="card-content">
+                  <h2 class="picture-title">Growing Business</h2>
+                  <p class="picture-description">Приложение</p>
+                </div>
+              </article>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer>
-      <section class="footer">
-        <div class="container">
-          <div class="footer-content">
-            <a href="./index1.html" class="logo text"
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="./index.html" class="logo text"
               >Web<span class="logo-three text">Studio</span></a
             >
-            <address>
-              <ul class="footer-contact-list">
-                <li class="footer-adress">
-                  <a href="https://goo.gl/maps/QL9woeG6s1fVLZXF6" target="blank"
-                    >г. Киев, пр-т Леси Украинки, 26</a
-                  >
-                </li>
-                <li class="footer-contact">
-                  <a href="mailto:info@devstudio.com" class="item">info@example.com</a>
-                </li>
-                <li class="footer-contact">
-                  <a href="tel:+380961111111" class="item">+38 099 111 11 11</a>
-                </li>
-              </ul>
-            </address>
           </div>
+          <address>
+            <ul class="footer-contact-list">
+              <li class="footer-adress">
+                <a href="https://goo.gl/maps/QL9woeG6s1fVLZXF6" target="blank"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-contact mail">
+                <a href="mailto:info@devstudio.com">info@example.com</a>
+              </li>
+              <li class="footer-contact tel">
+                <a href="tel:+380961111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
         </div>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
