@@ -152,7 +152,7 @@ header {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  /* min-width: 1600px;
+  min-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -160,7 +160,7 @@ header {
     url(../images/bg-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; */
+  background-size: contain;
 }
 
 .hero-title {
@@ -352,7 +352,8 @@ footer .text {
 .btn-text .item:not(:last-child) {
   margin-right: 8px;
 }
-.secondary-btn {
+.secondary-btn,
+.btn-all {
   background-color: var(--btn-bg-color);
   color: var(--title-text-color);
   cursor: pointer;
@@ -366,10 +367,16 @@ footer .text {
   min-width: 73px;
   text-align: center;
 }
+
+.btn-all {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}
+
 .secondary-btn:hover,
 .secondary-btn:focus {
   background-color: var(--accent-color);
-  color: var(--background-color);
+  color: var(--bg-color);
 }
 
 .pictures {
@@ -377,14 +384,14 @@ footer .text {
   flex-wrap: wrap;
   /* background-color: tomato; */
   margin-left: calc(-1 * var(--pictures-margin));
-  margin-bottom: calc(-1 * var(--pictures-margin));
+  margin-top: calc(-1 * var(--pictures-margin));
   /* padding-bottom: 94px; */
 }
 .pictures .item {
   /* outline: solid 1px red; */
   flex-basis: calc(100% / 3 - var(--pictures-margin));
   margin-left: var(--pictures-margin);
-  margin-bottom: var(--pictures-margin);
+  margin-top: var(--pictures-margin);
 }
 
 .border {
